@@ -12,10 +12,10 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -27,10 +27,10 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 20em;
+    margin: 1em;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
+    padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -38,11 +38,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-main img {
-    width: 150px;
-    height: auto;
-    
 }
 
 footer {
