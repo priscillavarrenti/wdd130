@@ -1,6 +1,9 @@
 :root {
     --heading-background-color: #f06;
     --heading-text-color: #333;
+    --heading-text-color: 'Argentina' , BuenosAires, sans-serif;
+    --pading: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
 }
 nav {
     background-color: darkblue;
