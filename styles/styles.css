@@ -1,6 +1,6 @@
 :root {
-    -o-object-fit: initial;
-    --heading-text-color: #333
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
 }
 nav {
     background-color: darkblue;
