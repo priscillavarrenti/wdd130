@@ -1,5 +1,6 @@
 :root {
-    background: yellow;
+    --main-color: hotpink;
+    --pane-padding: 5px 42px;
 }
 
 nav {
