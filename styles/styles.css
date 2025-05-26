@@ -1,3 +1,7 @@
+:root {
+    -o-object-fit: initial;
+    --heading-text-color: #333
+}
 nav {
     background-color: darkblue;
     padding: 10px;
