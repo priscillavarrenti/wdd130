@@ -1,9 +1,5 @@
 :root {
-    --heading-background-color: #f06;
-    --heading-text-color: #333;
-    --heading-text-color: 'Montserrat' , Helvetica, sans-serif;
-    --pading: 1rem;
-    --border: 1px solid rgba(255, 0, 0, 0.548);
+    background: yellow;
 }
 
 nav {
