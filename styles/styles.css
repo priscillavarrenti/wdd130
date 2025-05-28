@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
 
+h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
