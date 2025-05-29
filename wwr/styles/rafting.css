@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #00442D; /*British */
+    --secondary-color: #CED6FF; /*Perlwinkle*/
+    --accent1-color: #191A74;/*Midnight blue*/
+    --accent2-color: #3F88C5;/*Steel blue*/
+    --heading-font: "Poetsen One", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
