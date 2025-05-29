@@ -62,3 +62,8 @@ h1{
     background-color: var(--accent1-color);
     color: #fff;
 }
+
+.hero article img {
+    float: left;
+    width: 125px;
+}
