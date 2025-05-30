@@ -7,17 +7,6 @@
     --body-font: "Roboto", sans-serif;
 }
 
-header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;  
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    padding: 1rem;
-    border-bottom: qpx solid #ccc;
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +16,47 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;  
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 header, main, footer {
@@ -40,9 +70,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
+    
     margin: 16px;
     padding: 8px;
 }
@@ -51,20 +79,9 @@ nav, p, section, article {
     text-decoration: none;
 }
 
-.hero {
-    display: flex;
-    position: relative;  
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1{
+.hero h1{
     position: absolute;
-    top: 200px;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -76,4 +93,5 @@ h1{
 .hero article img {
     float: right;
     width: 125px;
+    margin-left: 10px;
 }
