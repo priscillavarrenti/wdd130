@@ -22,8 +22,8 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;  
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
     padding: 1rem;
     border-bottom: 1px solid #ccc;
 }
@@ -42,7 +42,7 @@ nav {
 nav a{
     margin-left: 20px;
     text-decoration: none;
-    color: var(--accent2-color);
+    color: var(--secondary-color);
 }
 
 .hero {
@@ -86,7 +86,7 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     opacity: 0.6;
-    background-color: #191A74;
+    background-color: #00442D;
     color: white;
 }
 
@@ -101,7 +101,27 @@ nav, p, section, article {
     text-align: start;
     color: #fff;
     opacity: 0.7;
-    background-color:var(--accent1-color);
+    background-color:var(--primary-color);
     padding: 16px;
 
+}
+.adventures-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventures-images img{
+    width: 100px;
+    height: auto;
+}
+
+
+.adventures-images figure {
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
 }
