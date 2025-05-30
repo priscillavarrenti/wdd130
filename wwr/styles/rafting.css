@@ -124,4 +124,18 @@ nav, p, section, article {
 
 footer {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #191A74;
+}
+footer p {
+    position: absolute;
+    margin:0;
+    color: #ccc;
+}
+
+.socialmedia {
+    margin-left: auto;
+    display: flex;
 }
