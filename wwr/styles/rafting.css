@@ -13,7 +13,10 @@ header {
     align-items: center;  
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    padding: 1rem;
+    border-bottom: qpx solid #ccc;
 }
+
 
 * {
     margin: 0;
@@ -61,7 +64,7 @@ nav, p, section, article {
 
 h1{
     position: absolute;
-    top: 20px;
+    top: 200px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -74,4 +77,3 @@ h1{
     float: right;
     width: 125px;
 }
-
