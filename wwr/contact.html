@@ -52,15 +52,30 @@
                     <img src="images/3.jpg" alt="joy" >
                     <figcaption>JO MARTIN</figcaption>
                 </figure>
-
+<br>
         <form>
             <fieldset>
-                <label for="usersname">Full Name: <input type="text" name="fullname"></label>
-                <label>Email: <input type="email" name="useremail"></label>
+                <label> Name: <input type="text" name="name"></label><br>
+                <label>Email: <input type="email" name="useremail"></label><br><br>
+            
+                <label>Purpose of Message</label><br>
+                <input type="radio" id="general" name="puporse" value="General Inquiry">
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="Reservation">
+                <label for="reservation">Reservation</label><br>
+                <input type="radio" id="question" name="purpose" value="Questions">
+                <label for="Questions">Questions</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="Suggestion">
+                <label for="Suggestion">Suggestion</label><br><br>
+            
+                <label for="Message">Message</label><br>
+                <textarea name="Message" id="Message" rows="4"></textarea><br><br>
+            
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
             </fieldset>
-            <fieldset>
-                <input type="radio">
-            </fieldset>
+
+            <button type="submit">Send Message</button>
         </form>
 
     </main>
@@ -79,7 +94,12 @@
             </a>
 
         </nav>
+
     </footer>
-    
+    <footer>
+         <a href="https:">
+            <img src="https://app.moqups.com/ynYisvJUguBQ9OxMdLkCZ0Ac9t4QWXYy/view/page/ad64222d5" alt="wireframe">
+        </a>
+    </footer>
 </body>
 </html>
