@@ -158,17 +158,22 @@ footer p {
 .trip-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    margin-top: 2rem;
 }
 
 .trip{
-    width: 30%;
+    width: 300px;
     background-color: #3F88C5;
     padding: 1rem;
-    border: #191A74;
+    border: 1px solid #191A74;
     border-radius: 8px;
+    text-align: center;
 }
 .trip img {
-    width: 210;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    max-width: 300px;
 }
