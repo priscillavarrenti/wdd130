@@ -168,13 +168,11 @@ footer p {
     background-color: #3F88C5;
     padding: 1rem;
     border: 1px solid #191A74;
-    border-radius: 8px;
     text-align: center;
 }
 .trip img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
     max-width: 300px;
 }
 
@@ -235,11 +233,10 @@ thead {
 }
 
 .newsletter {
-    max-width: 400px;
+    max-width: 370px;
     margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #3F88C5;
-    border-radius: 8px;
     text-align: center;
 }
 .newsletter form {
@@ -260,7 +257,6 @@ thead {
 .about-grid img {
     width: 100%;
     height: auto;
-    border-radius: 6px;
     max-width: 300px;
 }
 
