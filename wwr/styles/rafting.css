@@ -154,3 +154,18 @@ footer p {
     justify-content: space-evenly;
     align-items: center;
 }
+
+.trip-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trip{
+    width: 30%;
+    background-color: #3F88C5;
+    padding: 1rem;
+    border: #191A74;
+    border-radius: 8px;
+}
