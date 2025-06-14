@@ -202,3 +202,24 @@ thead {
     background-color: var(--primary-color);
     color: whitesmoke;
 }
+
+.hero2 {
+    position: relative;
+}
+
+.hero2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero2 h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: #00442D;
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+}
