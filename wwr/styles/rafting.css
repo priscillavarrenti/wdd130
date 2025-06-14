@@ -204,6 +204,8 @@ thead {
 }
 
 .hero2 {
+    max-width: 840px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -215,11 +217,46 @@ thead {
 
 .hero2 h1 {
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.6;
     background-color: #00442D;
-    color: whitesmoke;
-    padding: 1rem 2rem;
-    font-size: 2rem;
-    border-radius: 10px;
+    color: white;
+}
+
+.newsletter {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #3F88C5;
+    border-radius: 8px;
+    text-align: center;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+
+}
+
+.about-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    max-width: 300px;
+}
+
+.about-grid div {
+    max-width: 300px;
+    text-align: center;
 }
