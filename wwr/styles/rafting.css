@@ -205,8 +205,16 @@ thead {
 
 .hero2 {
     max-width: 840px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .hero2 img {
@@ -258,5 +266,8 @@ thead {
 
 .about-grid div {
     max-width: 300px;
+    text-align: center;
+}
+.cta {
     text-align: center;
 }
