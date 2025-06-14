@@ -164,7 +164,7 @@ footer p {
 }
 
 .trip{
-    width: 300px;
+    width: 250px;
     background-color: #3F88C5;
     padding: 1rem;
     border: 1px solid #191A74;
@@ -176,4 +176,29 @@ footer p {
     height: auto;
     border-radius: 6px;
     max-width: 300px;
+}
+
+.trip-table{
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #3F88C5;
+}
+
+th, td {
+    border: 1px solid #00442D;
+    padding: 12px;
+    font-size: medium;
+    text-align: center;
+}
+
+thead {
+    background-color: var(--primary-color);
+    color: whitesmoke;
 }
