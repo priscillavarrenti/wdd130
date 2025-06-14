@@ -157,9 +157,9 @@ footer p {
 
 .trip-cards {
     display: flex;
-    gap: 20px;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .trip{
