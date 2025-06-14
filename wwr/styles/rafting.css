@@ -169,3 +169,6 @@ footer p {
     border: #191A74;
     border-radius: 8px;
 }
+.trip img {
+    width: 210;
+}
